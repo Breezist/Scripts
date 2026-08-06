@@ -1,3 +1,14 @@
+--!strict
+--[=[                                 
+                                                       
+▄█▀▀▀▀█ █████▄ ▄▄▄▄  ▄▄▄▄▄ ▄▄▄▄▄ ▄▄▄▄▄ ▄▄  ▄▄▄▄ ▄▄▄▄▄▄ 
+█  █▀▄  ██▄▄██ ██▄█▄ ██▄▄  ██▄▄    ▄█▀ ██ ███▄▄   ██   
+█▄ ▀▀ █ ██▄▄█▀ ██ ██ ██▄▄▄ ██▄▄▄ ▄██▄▄ ██ ▄▄██▀   ██   
+ ▀▀▀▀▀                                                 
+	@name interlope.luau
+	@author Breezist
+	@description The entry-point file for game replication.
+]=]
 local module = require(`@game/ReplicatedStorage/interlope`);
 
 return {

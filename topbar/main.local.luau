@@ -1,6 +1,14 @@
---[[
-	
-]]
+--!strict
+--[=[                                 
+                                                       
+▄█▀▀▀▀█ █████▄ ▄▄▄▄  ▄▄▄▄▄ ▄▄▄▄▄ ▄▄▄▄▄ ▄▄  ▄▄▄▄ ▄▄▄▄▄▄ 
+█  █▀▄  ██▄▄██ ██▄█▄ ██▄▄  ██▄▄    ▄█▀ ██ ███▄▄   ██   
+█▄ ▀▀ █ ██▄▄█▀ ██ ██ ██▄▄▄ ██▄▄▄ ▄██▄▄ ██ ▄▄██▀   ██   
+ ▀▀▀▀▀                                                 
+	@name main.local.luau
+	@author Breezist
+	@description This code is for a topbar that automatically populates and animates.
+]=]
 local init = game:GetService(`ReplicatedStorage`):WaitForChild(`gameReplication`):FindFirstChild(`initializer`)
 local app = require(init)()
 
